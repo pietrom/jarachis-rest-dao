@@ -1,0 +1,54 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>com.blogspot.javapeanuts.jarachis</groupId>
+	<artifactId>jarachis-rest-dao</artifactId>
+	<version>1.0.0-SNAPSHOT</version>
+	<packaging>jar</packaging>
+
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<maven.compile.source>1.6</maven.compile.source>
+		<maven.compile.target>1.6</maven.compile.target>
+	</properties>
+
+	<url>https://github.com/pietrom/jarachis-rest-dao</url>
+
+	<licenses>
+		<license>
+			<name>GPL 3.0</name>
+			<url>http://www.gnu.org/licenses/gpl-3.0.txt</url>
+		</license>
+	</licenses>
+
+	<developers>
+		<developer>
+			<name>Pietro Martinelli</name>
+			<email>amicofragile@gmail.com</email>
+			<url>http://javapeanuts.blogspot.com</url>
+		</developer>
+	</developers>
+
+	<scm>
+		<connection>scm:git:https://github.com/pietrom/jarachis-rest-dao.git</connection>
+		<url>https://github.com/pietrom/jarachis-rest-dao.git</url>
+		<developerConnection>scm:git:https://github.com/pietrom/jarachis-rest-dao.git</developerConnection>
+	</scm>
+
+	<ciManagement>
+		<url>https://travis-ci.org/pietrom/jarachis-rest-dao</url>
+	</ciManagement>
+
+	<issueManagement>
+		<url>https://github.com/pietrom/jarachis-rest-dao/issues</url>
+	</issueManagement>
+
+	<dependencies>
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<version>4.11</version>
+			<scope>test</scope>
+		</dependency>
+	</dependencies>
+</project>
