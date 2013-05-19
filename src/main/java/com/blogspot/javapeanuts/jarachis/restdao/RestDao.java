@@ -9,6 +9,7 @@ public class RestDao<K extends Serializable, T> {
 	private final String baseUrl;
 	private final Class<K> keyClass;
 	private final Class<T> typeClass;
+	private K k;
 
 	public RestDao(RestOperations rest, String baseUrl, Class<K> keyClass, Class<T> typeClass) {
 		this.rest = rest;
